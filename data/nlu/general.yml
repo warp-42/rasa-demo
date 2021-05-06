@@ -224,12 +224,17 @@ nlu:
     - ok..
     - considering
     - More a less
+    - cool beans
     - sounds good!
     - really
+    - are you working
+    - you're doing great!
+    - indeed
+    - good
+    - nothing to see here, just testing the bot...
+    - yes, I have built bot before
 - intent: react_positive
   examples: |
-    - cool beans
-    - sweet
     - Cool
     - cool
     - cool :)
@@ -292,7 +297,6 @@ nlu:
     - you good
     - Great information
     - I mean to say that I liked the explanation
-    - Super! I love Rasa
 - intent: bye
   examples: |
     - Bye
@@ -337,6 +341,7 @@ nlu:
     - Exit
     - Close this talk
     - byr
+    - qsdfqsf
 - intent: canthelp
   examples: |
     - I think you cant help me
@@ -634,6 +639,24 @@ nlu:
     - yoo
     - ssup?
     - helleo
+    - hy
+- intent: next_step
+  examples: |
+    - continue to next step
+    - go to the next step
+    - i have to go to the next step
+    - i want next step
+    - i want to go to the next step
+    - next please
+    - next step
+    - next step now
+    - next step please
+    - next step pls
+    - ok continue please
+    - ok, next step
+    - please go to the next step
+    - take me to the next step
+    - what is the next step ?
 - intent: react_negative
   examples: |
     - I am feeling bad
@@ -683,6 +706,7 @@ nlu:
     - sadly
     - That tool here isnt good
     - boring
+    - i am not felling good
 - intent: thank
   examples: |
     - Cool. Thanks

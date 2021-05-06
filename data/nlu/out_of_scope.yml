@@ -43,6 +43,7 @@ nlu:
     - αστεία λές
     - rasa codigo abierto
     - 卧槽
+    - Oi!
 - intent: out_of_scope/other
   examples: |
     - I am asking you an out of scope question
@@ -135,6 +136,7 @@ nlu:
     - are you dev?
     - are you russian?
     - are you sick
+    - are you using Rasa [Core](product) and [NLU](product) ?
     - are you vegan
     - better than you
     - book a ticket
@@ -414,3 +416,5 @@ nlu:
     - sudo reboot
     - asdfgasd
     - asdfgasdas
+    - This is product onboarding
+    - it doesn't train at all
